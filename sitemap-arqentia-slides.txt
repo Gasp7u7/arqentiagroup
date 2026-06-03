@@ -1,0 +1,38 @@
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/src/pages/Arqentia.tsx
+
+# SLIDES — /arqentia (20 diapositivas)
+# Navegación: rueda del ratón, teclas ← → ↑ ↓, swipe táctil
+
+## GRUPO 1 — Inicio
+Slide 01 | Portada          | /arqentia → diapositiva 1
+Slide 02 | Quiénes somos    | /arqentia → diapositiva 2
+Slide 03 | Nuestra promesa  | /arqentia → diapositiva 3
+Slide 04 | Los 3 Ejes       | /arqentia → diapositiva 4
+
+## GRUPO 2 — Eje Comercial
+Slide 05 | Compra y Venta      | /arqentia → diapositiva 5
+Slide 06 | Arrendamiento       | /arqentia → diapositiva 6
+Slide 07 | Inversión           | /arqentia → diapositiva 7
+Slide 08 | Llave en Mano       | /arqentia → diapositiva 8
+Slide 09 | Ecosistema Digital  | /arqentia → diapositiva 9
+
+## GRUPO 3 — Eje Financiero
+Slide 10 | General         | /arqentia → diapositiva 10
+Slide 11 | Contabilidad    | /arqentia → diapositiva 11
+Slide 12 | Cobranzas       | /arqentia → diapositiva 12
+Slide 13 | Administración  | /arqentia → diapositiva 13
+Slide 14 | UAFE            | /arqentia → diapositiva 14
+
+## GRUPO 4 — Eje Técnico
+Slide 15 | Eje Técnico   | /arqentia → diapositiva 15
+Slide 16 | Construcción  | /arqentia → diapositiva 16
+
+## GRUPO 5 — Portafolio
+Slide 17 | Portafolio      | /arqentia → diapositiva 17
+Slide 18 | Casos de éxito  | /arqentia → diapositiva 18
+
+## GRUPO 6 — Trayectoria
+Slide 19 | Trayectoria  | /arqentia → diapositiva 19
+
+## GRUPO 7 — Contacto
+Slide 20 | Contacto  | /arqentia → diapositiva 20
