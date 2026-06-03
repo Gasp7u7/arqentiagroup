@@ -1,0 +1,23 @@
+ARQENTIA — SLIDES CÓDIGO COMPLETO (JSX + Tailwind CSS)
+Cada archivo contiene el código completo de la diapositiva con diseño, clases y animaciones.
+
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-01-portada.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-02-quienes-somos.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-03-nuestra-promesa.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-04-los-3-ejes.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-05-compra-venta.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-06-arrendamiento.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-07-inversion.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-08-llave-en-mano.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-09-ecosistema-digital.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-10-financiero-general.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-11-contabilidad.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-12-cobranzas.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-13-administracion.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-14-uafe.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-15-eje-tecnico.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-16-construccion.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-17-portafolio.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-18-casos-exito.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-19-trayectoria.tsx
+https://raw.githubusercontent.com/Gasp7u7/arqentiagroup/refs/heads/main/slides/slide-20-contacto.tsx
