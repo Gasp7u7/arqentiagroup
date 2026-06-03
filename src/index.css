@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+
+    --sidebar-background: 0 0% 98%;
+
+    --sidebar-foreground: 240 5.3% 26.1%;
+
+    --sidebar-primary: 240 5.9% 10%;
+
+    --sidebar-primary-foreground: 0 0% 98%;
+
+    --sidebar-accent: 240 4.8% 95.9%;
+
+    --sidebar-accent-foreground: 240 5.9% 10%;
+
+    --sidebar-border: 220 13% 91%;
+
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+    --sidebar-background: 240 5.9% 10%;
+    --sidebar-foreground: 240 4.8% 95.9%;
+    --sidebar-primary: 224.3 76.3% 48%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 240 4.8% 95.9%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-[#0e0e0f] text-[#f5f2ec] font-sans font-light overflow-x-hidden antialiased;
+  }
+}
+
+@layer utilities {
+  .ease-spring {
+    transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1);
+  }
+  .ease-out-custom {
+    transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@keyframes mq {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes o1 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(30px, -20px); }
+}
+
+@keyframes o2 {
+  0%, 100% { transform: translate(0, 0); }
+  50% { transform: translate(-20px, 28px); }
+}
+
+@keyframes ken {
+  from { transform: scale(1.06); }
+  to { transform: scale(1); }
+}
+
+.panel {
+  flex: 1;
+  transition: flex 0.7s cubic-bezier(0.32, 0.72, 0, 1);
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.hero-container:hover .panel {
+  flex: 0.7;
+}
+
+.hero-container .panel:hover {
+  flex: 2.5;
+}
+
+.panel-bg {
+  transition: transform 0.85s cubic-bezier(0.32, 0.72, 0, 1), filter 0.4s ease;
+}
+
+.panel:hover .panel-bg {
+  transform: scale(1.04);
+}
+
+.panel-overlay {
+  background: linear-gradient(to bottom, rgba(14, 14, 15, 0.55) 0%, rgba(14, 14, 15, 0.1) 40%, rgba(14, 14, 15, 0.6) 80%, rgba(14, 14, 15, 0.88) 100%);
+  transition: background 0.5s ease;
+}
+
+.panel:hover .panel-overlay {
+  background: linear-gradient(to bottom, rgba(14, 14, 15, 0.35) 0%, rgba(14, 14, 15, 0.0) 35%, rgba(14, 14, 15, 0.5) 75%, rgba(14, 14, 15, 0.92) 100%);
+}
+
+.panel-desc {
+  max-height: 0;
+  opacity: 0;
+  transition: max-height 0.55s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s ease 0.1s;
+}
+
+.panel:hover .panel-desc {
+  max-height: 120px;
+  opacity: 1;
+}
+
+.panel-cta {
+  opacity: 0;
+  transform: translateY(8px);
+  transition: opacity 0.35s ease 0.15s, transform 0.45s cubic-bezier(0.16, 1, 0.3, 1) 0.1s;
+}
+
+.panel:hover .panel-cta {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.panel-number {
+  transition: color 0.4s ease, transform 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.panel:hover .panel-number {
+  color: rgba(201, 169, 110, 0.12);
+  transform: translateY(-50%) translateX(-4px);
+}
+
+.panel-title {
+  font-size: clamp(2.2rem, 3.5vw, 4.2rem);
+  transition: font-size 0.5s cubic-bezier(0.32, 0.72, 0, 1);
+}
+
+.panel:hover .panel-title {
+  font-size: clamp(2.8rem, 4.5vw, 5.5rem);
+}
+
+.panel::after {
+  content: '';
+  position: absolute;
+  top: 15%;
+  bottom: 15%;
+  right: 0;
+  width: 1px;
+  background: rgba(201, 169, 110, 0.12);
+  z-index: 3;
+  transition: opacity 0.3s ease;
+}
+
+.panel:last-child::after {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .hero-container {
+    flex-direction: column;
+    height: auto;
+    min-height: 100dvh;
+  }
+  .panel {
+    width: 100% !important;
+    height: auto;
+    min-height: 33.333dvh;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .panel::after {
+    display: none;
+  }
+  .panel-content {
+    position: relative;
+    bottom: unset;
+  }
+  .panel-desc {
+    max-height: 120px;
+    opacity: 1;
+    display: block;
+  }
+  .panel-cta {
+    opacity: 1;
+    transform: none;
+  }
+  .panel-number {
+    display: none;
+  }
+  .panel-overlay {
+    background: linear-gradient(to bottom, rgba(14, 14, 15, 0.5) 0%, rgba(14, 14, 15, 0.7) 40%, rgba(14, 14, 15, 0.9) 70%, rgba(14, 14, 15, 0.98) 100%) !important;
+  }
+}
