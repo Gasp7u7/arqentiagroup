@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Inicio -->
+  <url>
+    <loc>https://arqentia.group/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Eje Comercial -->
+  <url>
+    <loc>https://arqentia.group/comercial</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Eje Técnico -->
+  <url>
+    <loc>https://arqentia.group/tecnico</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Eje Financiero -->
+  <url>
+    <loc>https://arqentia.group/financiero</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Contacto -->
+  <url>
+    <loc>https://arqentia.group/contacto</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Arqentia Group – Presentación -->
+  <url>
+    <loc>https://arqentia.group/arqentia</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+</urlset>
